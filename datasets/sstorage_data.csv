@@ -1,0 +1,21 @@
+warehouse_id,crop,region,stock_tons,capacity_tons,entry_date,exit_date
+WH001,Maize,Morogoro,120,500,2024-06-10,2024-07-15
+WH002,Rice,Mbeya,85,300,2024-06-12,
+WH003,Maize,Arusha,45,200,2024-02-05,2024-05-20
+WH004,Rice,Morogoro,60,250,2024-06-20,
+WH005,Maize,Dar es Salaam,30,150,2024-06-05,2024-08-10
+WH006,Rice,Dar es Salaam,25,100,2024-06-15,
+WH007,Maize,Mbeya,200,400,2024-06-18,
+WH008,Rice,Arusha,40,180,2024-06-22,
+WH009,Maize,Morogoro,180,500,2024-07-20,
+WH010,Rice,Mbeya,120,300,2024-07-25,
+WH011,Maize,Arusha,60,200,2024-08-01,
+WH012,Rice,Morogoro,90,250,2024-08-05,
+WH013,Maize,Dar es Salaam,20,150,2024-08-12,
+WH014,Rice,Dar es Salaam,35,100,2024-08-18,
+WH015,Maize,Mbeya,150,400,2024-09-01,
+WH016,Rice,Arusha,55,180,2024-09-05,
+WH017,Maize,Morogoro,140,500,2024-09-15,
+WH018,Rice,Mbeya,95,300,2024-09-20,
+WH019,Maize,Arusha,70,200,2024-10-01,
+WH020,Rice,Morogoro,110,250,2024-10-10

@@ -1,0 +1,31 @@
+crop,market,region,price_tzs_per_kg,price_type,date_recorded
+Maize,Kariakoo Market,Dar es Salaam,1200,retail,2024-06-01
+Rice,Mwanjelwa Market,Mbeya,2500,wholesale,2024-06-01
+Maize,Kilombero Market,Morogoro,1100,wholesale,2024-06-01
+Rice,Kariakoo Market,Dar es Salaam,2800,retail,2024-06-01
+Maize,Arusha Central Market,Arusha,1150,retail,2024-06-01
+Rice,Mlimani Market,Morogoro,2400,wholesale,2024-06-01
+Maize,Kariakoo Market,Dar es Salaam,1250,retail,2024-07-01
+Rice,Mwanjelwa Market,Mbeya,2550,wholesale,2024-07-01
+Maize,Kilombero Market,Morogoro,1150,wholesale,2024-07-01
+Rice,Kariakoo Market,Dar es Salaam,2850,retail,2024-07-01
+Maize,Arusha Central Market,Arusha,1200,retail,2024-07-01
+Rice,Mlimani Market,Morogoro,2450,wholesale,2024-07-01
+Maize,Kariakoo Market,Dar es Salaam,1300,retail,2024-08-01
+Rice,Mwanjelwa Market,Mbeya,2600,wholesale,2024-08-01
+Maize,Kilombero Market,Morogoro,1200,wholesale,2024-08-01
+Rice,Kariakoo Market,Dar es Salaam,2900,retail,2024-08-01
+Maize,Arusha Central Market,Arusha,1250,retail,2024-08-01
+Rice,Mlimani Market,Morogoro,2500,wholesale,2024-08-01
+Maize,Kariakoo Market,Dar es Salaam,1400,retail,2024-09-01
+Rice,Mwanjelwa Market,Mbeya,2700,wholesale,2024-09-01
+Maize,Kilombero Market,Morogoro,1300,wholesale,2024-09-01
+Rice,Kariakoo Market,Dar es Salaam,3000,retail,2024-09-01
+Maize,Arusha Central Market,Arusha,1350,retail,2024-09-01
+Rice,Mlimani Market,Morogoro,2600,wholesale,2024-09-01
+Maize,Kariakoo Market,Dar es Salaam,1450,retail,2024-10-01
+Rice,Mwanjelwa Market,Mbeya,2800,wholesale,2024-10-01
+Maize,Kilombero Market,Morogoro,1400,wholesale,2024-10-01
+Rice,Kariakoo Market,Dar es Salaam,3100,retail,2024-10-01
+Maize,Arusha Central Market,Arusha,1450,retail,2024-10-01
+Rice,Mlimani Market,Morogoro,2700,wholesale,2024-10-01

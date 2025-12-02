@@ -1,0 +1,25 @@
+region,month_year,rainfall_mm,avg_temp_c
+Morogoro,2024-06,80,26
+Morogoro,2024-07,60,25
+Morogoro,2024-08,40,26
+Morogoro,2024-09,30,27
+Morogoro,2024-10,20,28
+Morogoro,2024-11,10,29
+Mbeya,2024-06,120,20
+Mbeya,2024-07,100,19
+Mbeya,2024-08,80,20
+Mbeya,2024-09,60,21
+Mbeya,2024-10,40,22
+Mbeya,2024-11,20,23
+Arusha,2024-06,50,22
+Arusha,2024-07,40,21
+Arusha,2024-08,30,22
+Arusha,2024-09,20,23
+Arusha,2024-10,10,24
+Arusha,2024-11,5,25
+Dar es Salaam,2024-06,60,30
+Dar es Salaam,2024-07,50,29
+Dar es Salaam,2024-08,40,30
+Dar es Salaam,2024-09,30,31
+Dar es Salaam,2024-10,20,32
+Dar es Salaam,2024-11,10,33

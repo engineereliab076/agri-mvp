@@ -1,0 +1,25 @@
+crop,region,season,planted_area_ha,yield_tons_per_ha,total_production_tons,production_date
+Maize,Morogoro,Rainy 2024,150,2.5,375,2024-06-01
+Rice,Mbeya,Rainy 2024,200,3.0,600,2024-06-01
+Maize,Arusha,Dry 2024,80,1.8,144,2024-02-01
+Maize,Dar es Salaam,Rainy 2024,50,2.0,100,2024-06-01
+Rice,Morogoro,Rainy 2024,120,2.7,324,2024-06-01
+Rice,Arusha,Rainy 2024,90,2.5,225,2024-06-01
+Maize,Mbeya,Rainy 2024,180,2.8,504,2024-06-01
+Rice,Dar es Salaam,Rainy 2024,40,2.2,88,2024-06-01
+Maize,Morogoro,Dry 2024,100,2.0,200,2024-02-01
+Rice,Mbeya,Dry 2024,150,2.5,375,2024-02-01
+Maize,Arusha,Rainy 2024,120,2.2,264,2024-06-01
+Rice,Morogoro,Dry 2024,80,2.0,160,2024-02-01
+Maize,Dar es Salaam,Dry 2024,30,1.5,45,2024-02-01
+Rice,Arusha,Dry 2024,60,1.8,108,2024-02-01
+Maize,Mbeya,Dry 2024,130,2.2,286,2024-02-01
+Rice,Dar es Salaam,Dry 2024,20,1.5,30,2024-02-01
+Maize,Morogoro,Rainy 2024,160,2.6,416,2024-07-01
+Rice,Mbeya,Rainy 2024,210,3.1,651,2024-07-01
+Maize,Arusha,Rainy 2024,110,2.3,253,2024-07-01
+Rice,Morogoro,Rainy 2024,130,2.8,364,2024-07-01
+Maize,Dar es Salaam,Rainy 2024,55,2.1,115.5,2024-07-01
+Rice,Arusha,Rainy 2024,95,2.6,247,2024-07-01
+Maize,Mbeya,Rainy 2024,190,2.9,551,2024-07-01
+Rice,Dar es Salaam,Rainy 2024,45,2.3,103.5,2024-07-01

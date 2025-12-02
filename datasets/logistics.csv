@@ -1,0 +1,16 @@
+transport_id,crop,from_region,to_region,distance_km,transport_cost_tzs_per_ton,volume_transported_tons,date_shipped,transport_mode
+TR001,Maize,Morogoro,Dar es Salaam,200,15000,100,2024-06-05,Truck
+TR002,Rice,Mbeya,Dar es Salaam,700,35000,80,2024-06-10,Truck
+TR003,Maize,Arusha,Dar es Salaam,600,30000,50,2024-06-12,Truck
+TR004,Rice,Morogoro,Dar es Salaam,200,15000,60,2024-06-15,Truck
+TR005,Maize,Mbeya,Arusha,500,25000,70,2024-07-01,Truck
+TR006,Rice,Morogoro,Mbeya,400,20000,40,2024-07-05,Truck
+TR007,Maize,Dar es Salaam,Arusha,600,30000,30,2024-07-10,Truck
+TR008,Rice,Dar es Salaam,Mbeya,700,35000,25,2024-07-12,Truck
+TR009,Maize,Morogoro,Mbeya,300,18000,90,2024-08-01,Truck
+TR010,Rice,Mbeya,Morogoro,400,20000,55,2024-08-05,Truck
+TR011,Maize,Arusha,Morogoro,500,25000,45,2024-08-10,Truck
+TR012,Rice,Arusha,Dar es Salaam,600,30000,35,2024-08-15,Truck
+TR013,Maize,Mbeya,Dar es Salaam,700,35000,110,2024-09-01,Truck
+TR014,Rice,Morogoro,Arusha,500,25000,65,2024-09-05,Truck
+TR015,Maize,Dar es Salaam,Mbeya,700,35000,40,2024-09-10,Truck

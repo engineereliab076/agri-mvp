@@ -1,0 +1,9 @@
+region,crop,monthly_demand_tons,population_size,income_bracket
+Dar es Salaam,Maize,500,7000000,mixed
+Dar es Salaam,Rice,400,7000000,mixed
+Morogoro,Maize,200,3000000,low
+Morogoro,Rice,150,3000000,low
+Mbeya,Maize,180,2000000,medium
+Mbeya,Rice,300,2000000,medium
+Arusha,Maize,150,2500000,medium
+Arusha,Rice,120,2500000,medium
