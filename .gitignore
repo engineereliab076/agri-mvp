@@ -1,20 +1,63 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
 venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
 .vscode/
 .idea/
-*.db
-*.sqlite3
-.env
-.DS_Store
-__pycache__/
-*.py[cod]
-venv/
-.vscode/
-.idea/
-*.db
-*.sqlite3
-.env
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Project specific
+ml/models/production/*.pkl
+ml/forecasts/production/*.csv
+ml/visualizations/production/*.png
+ml/logs/*.json
+
+# Keep the structure but not the generated files
+!ml/models/production/.gitkeep
+!ml/forecasts/production/.gitkeep
+!ml/visualizations/production/.gitkeep
+!ml/logs/.gitkeep
+
+# Data files (optional - decide if you want to share data)
+ml/data/*.csv
+# If you want to share data, comment out the line above
+
+# Environment variables
+.env
+.env.local
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+*.tmp
 *.log
+*.bak

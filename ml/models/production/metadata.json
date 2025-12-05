@@ -1,0 +1,119 @@
+{
+  "created_at": "2025-12-05T09:46:38.037556",
+  "total_regions": 11,
+  "models_trained": 11,
+  "forecast_horizon_months": 6,
+  "confidence_interval": 0.95,
+  "regions": [
+    {
+      "name": "Arusha",
+      "model_file": "production_model_arusha.pkl",
+      "forecast_file": "forecast_arusha.csv",
+      "historical_avg": 284.56666666666666,
+      "forecast_avg": 229.1617725204659,
+      "training_records": 12,
+      "floor": 57.18,
+      "cap": 974.625
+    },
+    {
+      "name": "Dar es Salaam",
+      "model_file": "production_model_dar_es_salaam.pkl",
+      "forecast_file": "forecast_dar_es_salaam.csv",
+      "historical_avg": 278.13500000000005,
+      "forecast_avg": 325.4439927971236,
+      "training_records": 12,
+      "floor": 55.338,
+      "cap": 989.3000000000001
+    },
+    {
+      "name": "Dodoma",
+      "model_file": "production_model_dodoma.pkl",
+      "forecast_file": "forecast_dodoma.csv",
+      "historical_avg": 714.2591666666667,
+      "forecast_avg": 1222.2605623062443,
+      "training_records": 12,
+      "floor": 141.33,
+      "cap": 2470.275
+    },
+    {
+      "name": "Iringa",
+      "model_file": "production_model_iringa.pkl",
+      "forecast_file": "forecast_iringa.csv",
+      "historical_avg": 1035.2316666666663,
+      "forecast_avg": 696.811102635835,
+      "training_records": 12,
+      "floor": 207.945,
+      "cap": 3476.175
+    },
+    {
+      "name": "Kilimanjaro",
+      "model_file": "production_model_kilimanjaro.pkl",
+      "forecast_file": "forecast_kilimanjaro.csv",
+      "historical_avg": 277.8958333333333,
+      "forecast_avg": 488.6968154890342,
+      "training_records": 12,
+      "floor": 54.687,
+      "cap": 989.55
+    },
+    {
+      "name": "Mbeya",
+      "model_file": "production_model_mbeya.pkl",
+      "forecast_file": "forecast_mbeya.csv",
+      "historical_avg": 1043.3741666666667,
+      "forecast_avg": 1991.061199072655,
+      "training_records": 12,
+      "floor": 212.33999999999997,
+      "cap": 3630.1499999999996
+    },
+    {
+      "name": "Morogoro",
+      "model_file": "production_model_morogoro.pkl",
+      "forecast_file": "forecast_morogoro.csv",
+      "historical_avg": 701.2991666666667,
+      "forecast_avg": 1088.2011491032652,
+      "training_records": 12,
+      "floor": 139.902,
+      "cap": 2467.875
+    },
+    {
+      "name": "Mwanza",
+      "model_file": "production_model_mwanza.pkl",
+      "forecast_file": "forecast_mwanza.csv",
+      "historical_avg": 280.015,
+      "forecast_avg": 467.93820232665536,
+      "training_records": 12,
+      "floor": 56.865,
+      "cap": 967.65
+    },
+    {
+      "name": "Rukwa",
+      "model_file": "production_model_rukwa.pkl",
+      "forecast_file": "forecast_rukwa.csv",
+      "historical_avg": 704.7433333333333,
+      "forecast_avg": 1684.8920537031834,
+      "training_records": 12,
+      "floor": 137.394,
+      "cap": 2445.975
+    },
+    {
+      "name": "Ruvuma",
+      "model_file": "production_model_ruvuma.pkl",
+      "forecast_file": "forecast_ruvuma.csv",
+      "historical_avg": 1040.18,
+      "forecast_avg": 1565.718849115061,
+      "training_records": 12,
+      "floor": 212.802,
+      "cap": 3683.625
+    },
+    {
+      "name": "Shinyanga",
+      "model_file": "production_model_shinyanga.pkl",
+      "forecast_file": "forecast_shinyanga.csv",
+      "historical_avg": 277.1858333333334,
+      "forecast_avg": 251.77168304749412,
+      "training_records": 12,
+      "floor": 54.234,
+      "cap": 989.7249999999999
+    }
+  ]
+}
