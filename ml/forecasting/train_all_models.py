@@ -1,10 +1,7 @@
 """
-MAIZE PRODUCTION FORECASTING - ALL REGIONS (VS CODE VERSION)
+MAIZE PRODUCTION FORECASTING - ALL REGIONS
 ============================================================
 Train Prophet models for all 11 Tanzanian regions with visualization and saving
-
-Author: Eliabu (CEO + Data & AI Engineer)
-Date: December 2024
 
 Usage:
     python train_all_models.py
