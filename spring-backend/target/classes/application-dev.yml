@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: agriculture-platform
+  datasource:
+    url: jdbc:mysql://localhost:3306/agri_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Africa/Dar_es_Salaam
+    username: ipg_user
+    password: Kituntu@2930Mbwa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+      # COMMENT OUT IF YOU WANT TO USE POSTGRESS DB
+      #    datasource:
+      #      url: jdbc:postgresql://localhost:5432/maize_platform
+      #      username: postgres
+      #      password: postgres
+      #      driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+        # COMMENT OUT  BELOW IF YOU WANT TO USE POSTGRESS DB
+        #        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+        jdbc:
+          time_zone: UTC
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  security:
+    jwt:
+      secret: 6cec6f736d0a6a671c51d9c62cf83ef16987052d0c73b890a5a377f370392012
+      expiration-hours: 3
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
