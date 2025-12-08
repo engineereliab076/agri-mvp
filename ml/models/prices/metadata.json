@@ -1,0 +1,647 @@
+{
+  "created_at": "2025-12-08T16:55:56.591554",
+  "model_type": "Prophet",
+  "total_models": 36,
+  "markets": [
+    "Mbeya Central",
+    "Iringa Central",
+    "Songea Central",
+    "Sumbawanga Central",
+    "Morogoro Central",
+    "Dodoma Central",
+    "Arusha Central",
+    "Moshi Central",
+    "Kariakoo",
+    "Mwenge",
+    "Mwanza Central",
+    "Shinyanga Central"
+  ],
+  "quality_grades": [
+    "A",
+    "B",
+    "C"
+  ],
+  "forecast_days": 180,
+  "prophet_params": {
+    "yearly_seasonality": true,
+    "weekly_seasonality": true,
+    "daily_seasonality": false,
+    "seasonality_mode": "multiplicative",
+    "interval_width": 0.95,
+    "changepoint_prior_scale": 0.05
+  },
+  "models": {
+    "Mbeya Central - Grade A": {
+      "market": "Mbeya Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 36.35391485799078,
+        "rmse": 45.33276054553549,
+        "mape": 2.002244393963097,
+        "r2": 0.9107374084453752
+      },
+      "avg_historical": 1861.9170041039672,
+      "avg_forecast": 1848.429826128237,
+      "model_file": "prophet_mbeya_central_grade_a.pkl",
+      "forecast_file": "forecast_mbeya_central_grade_a.csv"
+    },
+    "Mbeya Central - Grade B": {
+      "market": "Mbeya Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 29.109803155698867,
+        "rmse": 35.11663677251897,
+        "mape": 1.9294468222671124,
+        "r2": 0.9227204746163928
+      },
+      "avg_historical": 1551.7832010943912,
+      "avg_forecast": 1536.5041921704358,
+      "model_file": "prophet_mbeya_central_grade_b.pkl",
+      "forecast_file": "forecast_mbeya_central_grade_b.csv"
+    },
+    "Mbeya Central - Grade C": {
+      "market": "Mbeya Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 27.25159709218606,
+        "rmse": 32.76777209158457,
+        "mape": 2.1285714402009903,
+        "r2": 0.9096804618394613
+      },
+      "avg_historical": 1318.1184952120382,
+      "avg_forecast": 1310.7629729010118,
+      "model_file": "prophet_mbeya_central_grade_c.pkl",
+      "forecast_file": "forecast_mbeya_central_grade_c.csv"
+    },
+    "Iringa Central - Grade A": {
+      "market": "Iringa Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 37.21989036428159,
+        "rmse": 44.61079836196269,
+        "mape": 2.0762576544166915,
+        "r2": 0.9142685744118
+      },
+      "avg_historical": 1862.0268536251708,
+      "avg_forecast": 1849.9495803514967,
+      "model_file": "prophet_iringa_central_grade_a.pkl",
+      "forecast_file": "forecast_iringa_central_grade_a.csv"
+    },
+    "Iringa Central - Grade B": {
+      "market": "Iringa Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 27.87238645402792,
+        "rmse": 35.22059705685107,
+        "mape": 1.8488429339960644,
+        "r2": 0.9224788519288541
+      },
+      "avg_historical": 1551.6403556771547,
+      "avg_forecast": 1539.7098120538983,
+      "model_file": "prophet_iringa_central_grade_b.pkl",
+      "forecast_file": "forecast_iringa_central_grade_b.csv"
+    },
+    "Iringa Central - Grade C": {
+      "market": "Iringa Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 24.121878188923752,
+        "rmse": 30.352573223543978,
+        "mape": 1.8847163282055874,
+        "r2": 0.9185423234433051
+      },
+      "avg_historical": 1319.0124213406293,
+      "avg_forecast": 1306.7961364879166,
+      "model_file": "prophet_iringa_central_grade_c.pkl",
+      "forecast_file": "forecast_iringa_central_grade_c.csv"
+    },
+    "Songea Central - Grade A": {
+      "market": "Songea Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 39.85064863709987,
+        "rmse": 48.54447536488435,
+        "mape": 2.196687475026924,
+        "r2": 0.8979839843111697
+      },
+      "avg_historical": 1861.0479069767441,
+      "avg_forecast": 1848.997281862979,
+      "model_file": "prophet_songea_central_grade_a.pkl",
+      "forecast_file": "forecast_songea_central_grade_a.csv"
+    },
+    "Songea Central - Grade B": {
+      "market": "Songea Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 28.985706635060957,
+        "rmse": 36.4941991474948,
+        "mape": 1.9210318067491188,
+        "r2": 0.9203000037788811
+      },
+      "avg_historical": 1550.6261422708617,
+      "avg_forecast": 1533.3537277087676,
+      "model_file": "prophet_songea_central_grade_b.pkl",
+      "forecast_file": "forecast_songea_central_grade_b.csv"
+    },
+    "Songea Central - Grade C": {
+      "market": "Songea Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 27.581782780324588,
+        "rmse": 33.32741508806328,
+        "mape": 2.167784848681976,
+        "r2": 0.9038062877816475
+      },
+      "avg_historical": 1318.4127906976744,
+      "avg_forecast": 1314.4594510193022,
+      "model_file": "prophet_songea_central_grade_c.pkl",
+      "forecast_file": "forecast_songea_central_grade_c.csv"
+    },
+    "Sumbawanga Central - Grade A": {
+      "market": "Sumbawanga Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 37.601888363172414,
+        "rmse": 44.91713603563946,
+        "mape": 2.0762490402184905,
+        "r2": 0.9143657246753975
+      },
+      "avg_historical": 1861.8896580027358,
+      "avg_forecast": 1843.415475896133,
+      "model_file": "prophet_sumbawanga_central_grade_a.pkl",
+      "forecast_file": "forecast_sumbawanga_central_grade_a.csv"
+    },
+    "Sumbawanga Central - Grade B": {
+      "market": "Sumbawanga Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 30.41285894392,
+        "rmse": 37.156734780596366,
+        "mape": 2.0333284672170966,
+        "r2": 0.9175521320745913
+      },
+      "avg_historical": 1550.853707250342,
+      "avg_forecast": 1540.0437782303088,
+      "model_file": "prophet_sumbawanga_central_grade_b.pkl",
+      "forecast_file": "forecast_sumbawanga_central_grade_b.csv"
+    },
+    "Sumbawanga Central - Grade C": {
+      "market": "Sumbawanga Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 23.50887391531485,
+        "rmse": 29.614965499554774,
+        "mape": 1.8295729047847888,
+        "r2": 0.9260563934076268
+      },
+      "avg_historical": 1317.3691518467851,
+      "avg_forecast": 1299.8750715280428,
+      "model_file": "prophet_sumbawanga_central_grade_c.pkl",
+      "forecast_file": "forecast_sumbawanga_central_grade_c.csv"
+    },
+    "Morogoro Central - Grade A": {
+      "market": "Morogoro Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 33.13014641725488,
+        "rmse": 41.291319193794784,
+        "mape": 1.8436623124138511,
+        "r2": 0.9254180098156894
+      },
+      "avg_historical": 1862.1363474692203,
+      "avg_forecast": 1844.4702580304506,
+      "model_file": "prophet_morogoro_central_grade_a.pkl",
+      "forecast_file": "forecast_morogoro_central_grade_a.csv"
+    },
+    "Morogoro Central - Grade B": {
+      "market": "Morogoro Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 32.0050288898506,
+        "rmse": 39.11249966842013,
+        "mape": 2.126713339946534,
+        "r2": 0.906126892761796
+      },
+      "avg_historical": 1551.235102599179,
+      "avg_forecast": 1536.6994940459645,
+      "model_file": "prophet_morogoro_central_grade_b.pkl",
+      "forecast_file": "forecast_morogoro_central_grade_b.csv"
+    },
+    "Morogoro Central - Grade C": {
+      "market": "Morogoro Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 25.887014841808398,
+        "rmse": 32.08139461465883,
+        "mape": 2.0313410335272573,
+        "r2": 0.9116788230061068
+      },
+      "avg_historical": 1317.9169083447332,
+      "avg_forecast": 1309.0016258202127,
+      "model_file": "prophet_morogoro_central_grade_c.pkl",
+      "forecast_file": "forecast_morogoro_central_grade_c.csv"
+    },
+    "Dodoma Central - Grade A": {
+      "market": "Dodoma Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 34.00922125588154,
+        "rmse": 43.23062780857696,
+        "mape": 1.8887085892083717,
+        "r2": 0.9209673116699676
+      },
+      "avg_historical": 1862.2205335157319,
+      "avg_forecast": 1846.0810384818035,
+      "model_file": "prophet_dodoma_central_grade_a.pkl",
+      "forecast_file": "forecast_dodoma_central_grade_a.csv"
+    },
+    "Dodoma Central - Grade B": {
+      "market": "Dodoma Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 30.45638261108885,
+        "rmse": 38.66037695861972,
+        "mape": 2.010672834301821,
+        "r2": 0.9091928951986172
+      },
+      "avg_historical": 1551.096238030096,
+      "avg_forecast": 1538.7408580839208,
+      "model_file": "prophet_dodoma_central_grade_b.pkl",
+      "forecast_file": "forecast_dodoma_central_grade_b.csv"
+    },
+    "Dodoma Central - Grade C": {
+      "market": "Dodoma Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 25.757464337090333,
+        "rmse": 31.508699793882382,
+        "mape": 2.0237011710121062,
+        "r2": 0.915787692254054
+      },
+      "avg_historical": 1318.589562243502,
+      "avg_forecast": 1309.643265749332,
+      "model_file": "prophet_dodoma_central_grade_c.pkl",
+      "forecast_file": "forecast_dodoma_central_grade_c.csv"
+    },
+    "Arusha Central - Grade A": {
+      "market": "Arusha Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 41.23606096418085,
+        "rmse": 51.70212772974131,
+        "mape": 2.005770502763727,
+        "r2": 0.9133248969250112
+      },
+      "avg_historical": 2139.654049247606,
+      "avg_forecast": 2128.4577324254087,
+      "model_file": "prophet_arusha_central_grade_a.pkl",
+      "forecast_file": "forecast_arusha_central_grade_a.csv"
+    },
+    "Arusha Central - Grade B": {
+      "market": "Arusha Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 33.412726878941065,
+        "rmse": 42.33699954113968,
+        "mape": 1.9298482628615368,
+        "r2": 0.9163719151256591
+      },
+      "avg_historical": 1783.8289603283176,
+      "avg_forecast": 1769.5625174938023,
+      "model_file": "prophet_arusha_central_grade_b.pkl",
+      "forecast_file": "forecast_arusha_central_grade_b.csv"
+    },
+    "Arusha Central - Grade C": {
+      "market": "Arusha Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 29.06922235693116,
+        "rmse": 37.19423670091989,
+        "mape": 1.9864576464127766,
+        "r2": 0.9124976459952553
+      },
+      "avg_historical": 1516.1261833105334,
+      "avg_forecast": 1502.3053986985974,
+      "model_file": "prophet_arusha_central_grade_c.pkl",
+      "forecast_file": "forecast_arusha_central_grade_c.csv"
+    },
+    "Moshi Central - Grade A": {
+      "market": "Moshi Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 40.17482377651295,
+        "rmse": 50.039749698011654,
+        "mape": 1.9172090100553971,
+        "r2": 0.9201204271200866
+      },
+      "avg_historical": 2137.4603830369356,
+      "avg_forecast": 2113.4661684870744,
+      "model_file": "prophet_moshi_central_grade_a.pkl",
+      "forecast_file": "forecast_moshi_central_grade_a.csv"
+    },
+    "Moshi Central - Grade B": {
+      "market": "Moshi Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 33.56591048270549,
+        "rmse": 42.77753269358514,
+        "mape": 1.9403270689290584,
+        "r2": 0.9153582219986375
+      },
+      "avg_historical": 1784.3658139534882,
+      "avg_forecast": 1769.617543990893,
+      "model_file": "prophet_moshi_central_grade_b.pkl",
+      "forecast_file": "forecast_moshi_central_grade_b.csv"
+    },
+    "Moshi Central - Grade C": {
+      "market": "Moshi Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 26.915395847253187,
+        "rmse": 34.932840799214006,
+        "mape": 1.8290743835989405,
+        "r2": 0.9201924709017395
+      },
+      "avg_historical": 1516.8386046511628,
+      "avg_forecast": 1503.8012816196554,
+      "model_file": "prophet_moshi_central_grade_c.pkl",
+      "forecast_file": "forecast_moshi_central_grade_c.csv"
+    },
+    "Kariakoo - Grade A": {
+      "market": "Kariakoo",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 43.16999617547993,
+        "rmse": 51.56009993054626,
+        "mape": 2.0846251788743135,
+        "r2": 0.9163333312110917
+      },
+      "avg_historical": 2137.95707250342,
+      "avg_forecast": 2119.494426572456,
+      "model_file": "prophet_kariakoo_grade_a.pkl",
+      "forecast_file": "forecast_kariakoo_grade_a.csv"
+    },
+    "Kariakoo - Grade B": {
+      "market": "Kariakoo",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 32.95389417805654,
+        "rmse": 41.794935555453314,
+        "mape": 1.9047657353639975,
+        "r2": 0.920317614239564
+      },
+      "avg_historical": 1783.1548016415868,
+      "avg_forecast": 1766.5523026433489,
+      "model_file": "prophet_kariakoo_grade_b.pkl",
+      "forecast_file": "forecast_kariakoo_grade_b.csv"
+    },
+    "Kariakoo - Grade C": {
+      "market": "Kariakoo",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 28.1686238897765,
+        "rmse": 35.134235665126205,
+        "mape": 1.9274028138823052,
+        "r2": 0.9200643162260437
+      },
+      "avg_historical": 1516.4011627906978,
+      "avg_forecast": 1503.0580489771278,
+      "model_file": "prophet_kariakoo_grade_c.pkl",
+      "forecast_file": "forecast_kariakoo_grade_c.csv"
+    },
+    "Mwenge - Grade A": {
+      "market": "Mwenge",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 37.965535421454184,
+        "rmse": 48.38570317458638,
+        "mape": 1.8215710146726825,
+        "r2": 0.924149055994588
+      },
+      "avg_historical": 2138.032393980848,
+      "avg_forecast": 2121.5717277969566,
+      "model_file": "prophet_mwenge_grade_a.pkl",
+      "forecast_file": "forecast_mwenge_grade_a.csv"
+    },
+    "Mwenge - Grade B": {
+      "market": "Mwenge",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 33.80277758137928,
+        "rmse": 42.418881667261644,
+        "mape": 1.954773651565896,
+        "r2": 0.9154538023696389
+      },
+      "avg_historical": 1782.721409028728,
+      "avg_forecast": 1769.0188263387458,
+      "model_file": "prophet_mwenge_grade_b.pkl",
+      "forecast_file": "forecast_mwenge_grade_b.csv"
+    },
+    "Mwenge - Grade C": {
+      "market": "Mwenge",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 28.812727166423873,
+        "rmse": 35.71251384981887,
+        "mape": 1.9642152443006438,
+        "r2": 0.918412250978775
+      },
+      "avg_historical": 1517.095047879617,
+      "avg_forecast": 1503.5705697077326,
+      "model_file": "prophet_mwenge_grade_c.pkl",
+      "forecast_file": "forecast_mwenge_grade_c.csv"
+    },
+    "Mwanza Central - Grade A": {
+      "market": "Mwanza Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 41.70412135622557,
+        "rmse": 50.7808532742694,
+        "mape": 2.0300076271965817,
+        "r2": 0.9188097762445093
+      },
+      "avg_historical": 2137.9717647058824,
+      "avg_forecast": 2122.4155679342753,
+      "model_file": "prophet_mwanza_central_grade_a.pkl",
+      "forecast_file": "forecast_mwanza_central_grade_a.csv"
+    },
+    "Mwanza Central - Grade B": {
+      "market": "Mwanza Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 32.10098000623772,
+        "rmse": 39.801794142223414,
+        "mape": 1.858551300359226,
+        "r2": 0.9237502991018124
+      },
+      "avg_historical": 1783.272175102599,
+      "avg_forecast": 1766.8908113334062,
+      "model_file": "prophet_mwanza_central_grade_b.pkl",
+      "forecast_file": "forecast_mwanza_central_grade_b.csv"
+    },
+    "Mwanza Central - Grade C": {
+      "market": "Mwanza Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 27.340783836242405,
+        "rmse": 34.117189595758255,
+        "mape": 1.8833044481442975,
+        "r2": 0.9252999555025267
+      },
+      "avg_historical": 1516.4177291381668,
+      "avg_forecast": 1506.2477372873202,
+      "model_file": "prophet_mwanza_central_grade_c.pkl",
+      "forecast_file": "forecast_mwanza_central_grade_c.csv"
+    },
+    "Shinyanga Central - Grade A": {
+      "market": "Shinyanga Central",
+      "grade": "A",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 40.65014110597892,
+        "rmse": 50.407712564339626,
+        "mape": 1.956047593278978,
+        "r2": 0.917752896823686
+      },
+      "avg_historical": 2140.3639671682627,
+      "avg_forecast": 2127.7174235914454,
+      "model_file": "prophet_shinyanga_central_grade_a.pkl",
+      "forecast_file": "forecast_shinyanga_central_grade_a.csv"
+    },
+    "Shinyanga Central - Grade B": {
+      "market": "Shinyanga Central",
+      "grade": "B",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 34.44311348931472,
+        "rmse": 43.84864142116522,
+        "mape": 1.9902210179066373,
+        "r2": 0.910245895769913
+      },
+      "avg_historical": 1783.0431737346103,
+      "avg_forecast": 1768.6753206879391,
+      "model_file": "prophet_shinyanga_central_grade_b.pkl",
+      "forecast_file": "forecast_shinyanga_central_grade_b.csv"
+    },
+    "Shinyanga Central - Grade C": {
+      "market": "Shinyanga Central",
+      "grade": "C",
+      "records": 731,
+      "train_size": 584,
+      "test_size": 147,
+      "metrics": {
+        "mae": 30.301850255593124,
+        "rmse": 37.850548065956104,
+        "mape": 2.053807414714463,
+        "r2": 0.9070141180885474
+      },
+      "avg_historical": 1516.133269493844,
+      "avg_forecast": 1508.1095159650545,
+      "model_file": "prophet_shinyanga_central_grade_c.pkl",
+      "forecast_file": "forecast_shinyanga_central_grade_c.csv"
+    }
+  }
+}
